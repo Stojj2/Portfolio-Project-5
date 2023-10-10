@@ -1,7 +1,7 @@
 ---
 name: User Story Template for Machine Learning
 about: Default Machine Learning Template
-title: "**Title:** [Short, descriptive title of the user story]"
+title: "[Short, descriptive title of the user story]"
 labels: ''
 assignees: ''
 
