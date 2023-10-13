@@ -51,10 +51,15 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 # Mildew Detection in Cherry Leaves
 
 ## 1. Introduction
+**link to the [Dashboard](https://)**
 
-link to the [Dashboard](https://)
+Short Description:<br>
+At the core of this project is a collection of different cell images that we've put together very carefully. These images are the building blocks of the study. The main goal is to find out how well deep learning methods can help automatically detect powdery mildew.
 
-At the core of this project is a collection of different cell images that we've put together very carefully. These images are the building blocks of our study. The main goal is to find out how well deep learning methods can help automatically detect cell infections.
+Project Planing:<br>
+The project have embraced each phase of the CRISP-DM framework as a pivotal milestone within the project plan.<br>
+[Project plan (CRISP-DM)](https://github.com/users/Stojj2/projects/6/views/2)
+
 
 ## 2. Dataset Content
 
@@ -75,16 +80,26 @@ To save time in this process, the IT team suggested an ML system that detects in
 - ### Hypothesis
 
   - (H1)<br>
-    - The neural network can achieve an accuracy of at least 96% in distinguishing infected leaves from non-infected leaves in the dataset, demonstrating its effectiveness in this task.
+    - The neural network can achieve an accuracy of at least 96% in distinguishing powdery mildew leaves from non-powdery mildew leaves in the dataset, demonstrating its effectiveness in this task.
 
 - ### Validate
-  - I will validate the hypothesis using a TensorFlow model to assess the model's ability to achieve an accuracy of at least 96% in distinguishing infected leaves from non-infected leaves in the dataset.
+  - I will validate the hypothesis using a TensorFlow model to assess the model's ability to achieve an accuracy of at least 96% in distinguishing powdery mildew leaves from non-powdery mildew leaves in the dataset.
 
 <br><br>
 
 ## 5. The rationale to map the business requirements to the Data Visualisations and ML tasks
 
 - List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+
+  ## Business Requirements Overview:
+
+  **1. The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.**
+
+  - Within our dataset, we have categorized images of both infected and non-infected leaves. In this context, we aim to visually illustrate the distinctions between infected and non-infected leaves.
+
+  **2. The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.**
+
+  - The machine learning task for this project involves binary classification using TensorFlow. The objective is to create a model that can predict whether a cherry leaf is healthy or infected with powdery mildew. This task falls under supervised learning, as it requires training a model on a labeled dataset with two classes: "Healthy" and "Infected."
 
 ## 6. ML Business Case
 
