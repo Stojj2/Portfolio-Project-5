@@ -1,53 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-## Codeanywhere Template Instructions
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Codeanywhere Template Instructions section of this README.md file, and modify the remaining paragraphs for your own project. Please do read the Codeanywhere Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
-
-## How to use this repo
-
-1. Use this template to create your GitHub project repo
-
-1. Log into <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">CodeAnywhere</a> with your GitHub account.
-
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
-
-1. In the terminal type <code>pip3 install jupyter</code>
-
-1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
-
-1. Open port 8888 preview or browser
-
-1. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
-
-1. Click the button Not Trusted and choose Trust.
-
-Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
-
-## Cloud IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
 # Mildew Detection in Cherry Leaves
 
 ## 1. Introduction
@@ -95,15 +45,15 @@ To save time in this process, the IT team suggested an ML system that detects in
   **1. The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.**
 
   - Within our dataset, we have categorized images of both infected and non-infected leaves. In this context, we aim to visually illustrate the distinctions between infected and non-infected leaves.
-    -  Visualize the average image variability for each class (Infected or not-infected)
-    -  Visualize the difference between an average infected and an average non-infected cherry leaves
-    -  Present an image montage for each class
+    - Visualize the average image variability for each class (Infected or not-infected)
+    - Visualize the difference between an average infected and an average non-infected cherry leaves
+    - Present an image montage for each class
 
 *This will help the client to understand the data*
 
   **2. The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.**
 
-  - The machine learning task for this project involves binary classification using TensorFlow. The objective is to create a model that can predict whether a cherry leaf is healthy or infected with powdery mildew. This task falls under supervised learning, as it requires training a model on a labeled dataset with two classes: "Infected" and "not-Infected.
+  - The machine learning task for this project involves binary classification using TensorFlow. The objective is to create a model that can predict whether a cherry leaf is infected or not-infected with powdery mildew. This task falls under supervised learning, as it requires training a model on a labeled dataset with two classes: "Infected" and "not-Infected.
     - The model takes an image of a cherry leaf as input.
     - The result will be a prediction of whether the leaf is infected or not-infected.
 
