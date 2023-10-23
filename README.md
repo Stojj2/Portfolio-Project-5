@@ -90,33 +90,36 @@ _This prediction will be used in an easy to understand dashboard for the client_
 
 ## 7. Dashboard Design
 
-- ### **1. Summary**
+### **1. Summary**
 
-  - On this page, we'll provide the user with a brief overview of the project.
+- On this page, we'll provide the user with a brief overview of the project.
 
-    - **Description**
+  - **Description**
 
-      - Farmy & Foods faces a challenge with powdery mildew in their cherry plantations, leading to a time-consuming manual inspection process. To save time, they're considering implementing an ML system to detect powdery mildew from cherry leaf images. If successful, this approach could be expanded to other crops.
+    - Farmy & Foods faces a challenge with powdery mildew in their cherry plantations, leading to a time-consuming manual inspection process. To save time, they're considering implementing an ML system to detect powdery mildew from cherry leaf images. If successful, this approach could be expanded to other crops.
 
-    - **Data**
+  - **Data**
 
-      - In this project, we possess a dataset containing 4,208 cherry leaf images, with half being healthy and the other half being pre-sorted as infected.
+    - In this project, we possess a dataset containing 4,208 cherry leaf images, with half being healthy and the other half being pre-sorted as infected.
 
-    - **Links**
+  - **Links**
 
-      - [GitHub Repository](https://github.com/Stojj2/Portfolio-Project-5)
-      - [Readme.md](https://github.com/Stojj2/Portfolio-Project-5/blob/main/README.md)
-      - [Cherry Leaves Dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+    - [GitHub Repository](https://github.com/Stojj2/Portfolio-Project-5)
+    - [Readme.md](https://github.com/Stojj2/Portfolio-Project-5/blob/main/README.md)
+    - [Cherry Leaves Dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
-    - **Requirements**
+  - **Requirements**
 
-      1. The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+    1. The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 
-      2. The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+    2. The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
 - ### **2. Data-Understanding**
   - We'll use data plots to make it simpler to grasp the distinctions between the classes we're aiming to predict.
-  
+    - Dropdown meny
+      1. Average vs. Variability Image
+      2. Difference **average Healthy** and **averagy Powdery Mildew**
+      3. Image Montage
 - ### **3. Predicting**
 
   - This page is designed for uploading an image of unseen cherry leaf data and utilizing the trained model to make predictions based on it.
