@@ -5,7 +5,7 @@
 **link to the [Dashboard](https://)**
 
 Short Description:<br>
-At the core of this project is a collection of different cell images that we've put together very carefully. These images are the building blocks of the study. The main goal is to find out how well deep learning methods can help automatically detect powdery mildew.
+At the core of this project is a collection of various cherry leaf images that we've assembled with great care. These images are the building blocks of the study. The main goal is to determine how effectively deep learning methods can assist in automatically detecting powdery mildew in cherry leaves.
 
 Project Planing:<br>
 The project have embraced each phase of the CRISP-DM framework as a pivotal milestone within the project plan.<br>
