@@ -3,6 +3,7 @@ import streamlit as st
 
 def Summary():
     st.header("Summary")
+    st.write("---")
 
     st.info(
         f"**Description**\n\n"

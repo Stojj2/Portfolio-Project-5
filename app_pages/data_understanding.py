@@ -13,6 +13,7 @@ import random
 
 def DataUnderstanding():
     st.header("Data Understanding")
+    st.write("---")
 
     st.info(
         f"**Info**\n\n"

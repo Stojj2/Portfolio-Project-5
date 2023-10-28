@@ -3,6 +3,7 @@ import streamlit as st
 
 def HypothesisAndValidation():
     st.header("Hypothesis And Validation")
+    st.write("---")
 
     st.info(
         f"**Hypothesis (H1)**"

@@ -9,16 +9,16 @@ from src.machine_learning.predictive_analysis import (load_model_and_predict, re
 
 def Predicting():
     st.header("Predicting")
+    st.write("---")
     st.info(
         f"* The client is interested in predicting whether a leaf image contains powdery mildew or not "
         f"or not."
         f"\n\n* You can access a dataset of cherry leaf images for prediction. These images are available for download at the following link "
-        f"\n\n **[Link](https://www.kaggle.com/codeinstitute/cell-images-test)**"
+        f"\n\n **[Link](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)**"
     )
 
-    st.write("---")
 
-    images_buffer = st.file_uploader('Upload blood smear samples. You may select more than one.',
+    images_buffer = st.file_uploader('upload samples of leaves. You can select multiple samples if needed.',
                                      type='png', accept_multiple_files=True)
 
     if images_buffer is not None:
@@ -26,7 +26,7 @@ def Predicting():
         for image in images_buffer:
 
             img_pil = (Image.open(image))
-            st.info(f"Blood Smear Sample: **{image.name}**")
+            st.info(f"Leaf Sample: **{image.name}**")
             img_array = np.array(img_pil)
             st.image(
                 img_pil, caption=f"Image Size: {img_array.shape[1]}px width x {img_array.shape[0]}px height")
