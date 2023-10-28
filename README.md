@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-**link to the [Dashboard](https://)**
+**link to the [Dashboard](https://cherry-leaves-predictor-08aefcc201b6.herokuapp.com/)**
 
 Short Description:<br>
 At the core of this project is a collection of various cherry leaf images that we've assembled with great care. These images are the building blocks of the study. The main goal is to determine how effectively deep learning methods can assist in automatically detecting powdery mildew in cherry leaves.
@@ -116,25 +116,39 @@ _This prediction will be used in an easy to understand dashboard for the client_
 
 - ### **2. Data-Understanding**
   - We'll use data plots to make it simpler to grasp the distinctions between the classes we're aiming to predict.
-    - Dropdown meny
+    - Checkboxes
       1. Average vs. Variability Image
       2. Difference **average Healthy** and **averagy Powdery Mildew**
       3. Image Montage
 - ### **3. Predicting**
 
   - This page is designed for uploading an image of unseen cherry leaf data and utilizing the trained model to make predictions based on it.
+  - The prediction will be visualized through a diagram displaying the classes and their corresponding probability levels.
+  - This section will also allow users to upload multiple images for prediction and, at the end, export the results to an Excel spreadsheet.
 
 - ### **4. Hypothesis and Validation**
 
+  - This section will present Hypothesis H1 and provide details about the validation process.
+
+  - The Validation section is enclosed within a green-colored box.
+
 - ### **5. Model-Prediction-Analysis**
 
-_- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports._
+  - The objective of this section is to showcase the performance of the CNN model.
 
-_- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type)._
+  - This section will include a chart that visualizes the distribution of labels within the datasets.
 
-## 8. Unfixed Bugs
+  - Two distinct plots, one depicting the accuracy and the other showing the loss. Each plot represents the model's performance at different epochs, allowing for a detailed examination of how accuracy and loss metrics evolve during the training process.
 
-_- You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed._
+  - The final component on this page will be a calculation of the model's generalized performance based on the **test** set.
+
+## 8. Bugs
+
+1. **Issue with Image Montage Creation in Dashboard**
+   - An incident occurred where the validation folder containing picture data was mistakenly removed, causing the montage function to be unable to access the images for creating an image montage.
+     - The folder was successfully restored using GitHub's "Browse old repositories" feature.
+
+_During the testing of the dashboard and Jupyter notebooks, no other known bugs were identified._
 
 ## 9. Deployment
 
@@ -153,7 +167,20 @@ _- You will need to mention unfixed bugs and why they were unfixed. This section
 
 ## 10. Main Data Analysis and Machine Learning Libraries
 
-_- Here you should list the libraries used in the project and provide an example(s) of how you used these libraries._
+- **Numpy**
+  - NumPy is at the core of Pandas and Matplotlib, converting images to arrays for analysis and machine learning. It also calculates means and standard deviations, supporting data processing and model training.
+- **Pandas**
+  - Pandas played a role in creating and managing DataFrames, as demonstrated in the generation of accuracy and loss plots during model training.
+- **Matplotlib**
+  - In the data augmentation section, we utilized Matplotlib for visualizing the images.
+- **Seaborn**
+  - Seaborn was helpful in making the image montage because it's great at handling visualizations with multiple axes.
+- **Streamlit**
+  - Used to build the interactive web dashboard for data presentation and exploration.
+- **Tensorflow**
+  - Used for our deep learning tasks, especially when working with neural networks for image classification.
+- **Keras**
+  - Integrated with TensorFlow for building and training the deep learning model.
 
 ## 11. Credits
 
