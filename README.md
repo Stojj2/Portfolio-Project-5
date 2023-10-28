@@ -154,7 +154,7 @@ _During the testing of the dashboard and Jupyter notebooks, no other known bugs 
 
 ### Heroku
 
-- The App live link is: <https://YOUR_APP_NAME.herokuapp.com/>
+- The App live link is: [Cherry Leaves Predictor](https://cherry-leaves-predictor-08aefcc201b6.herokuapp.com/)
 - Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 - The project was deployed to Heroku using the following steps.
 
@@ -184,22 +184,15 @@ _During the testing of the dashboard and Jupyter notebooks, no other known bugs 
 
 ## 11. Credits
 
-_- In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism._
+- **CodeInstitute**
 
-_- You can break the credits section up into Content and Media, depending on what you have included in your project._
+  - This project draws inspiration from a project provided by CodeInstitute and incorporates code and concepts from that project. The original project served as a foundational reference for the development and implementation of the current project, allowing for the exploration and application of similar concepts and methodologies.
 
-### Content
+    [CodeInstitute - Malaria Detector](https://github.com/Code-Institute-Solutions/WalkthroughProject01)
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- **Rohit Sharma**
 
-### Media
+  - My mentor, Rohit Sharma, provided invaluable assistance in project planning and offered constructive feedback throughout the project, guiding me every step of the way.
 
-_- The photos used on the home and sign-up page are from This Open-Source site._
-
-_- The images used for the gallery page were taken from this other open-source site._
-
-## Acknowledgements (optional)
-
-_- Thank the people that provided support throughout this project._
+- **Kaggle**
+  - Kaggle played a crucial role in sourcing the necessary data for this project, which had already been shared on the Kaggle platform by CodeInstitute.
