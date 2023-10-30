@@ -137,18 +137,24 @@ _This prediction will be used in an easy to understand dashboard for the client_
   - The objective of this section is to showcase the performance of the CNN model.
 
   - This section will include a chart that visualizes the distribution of labels within the datasets.
+    <img src="outputs/v1/labels_distribution.png" alt="isolated" width="500"/>
 
   - Two distinct plots, one depicting the accuracy and the other showing the loss. Each plot represents the model's performance at different epochs, allowing for a detailed examination of how accuracy and loss metrics evolve during the training process.
+  
+    <img src="outputs/v1/model_training_acc.png" alt="isolated" width="350"/>
+    <img src="outputs/v1/model_training_acc.png" alt="isolated" width="350"/>
 
   - The final component on this page will be a calculation of the model's generalized performance based on the **test** set.
 
 ## 8. Bugs
 
-1. **Issue with Image Montage Creation in Dashboard**
+### Fixed
+1. **Issue with Image Montage Creation in Dashboard** **&check;**
    - An incident occurred where the validation folder containing picture data was mistakenly removed, causing the montage function to be unable to access the images for creating an image montage.
      - The folder was successfully restored using GitHub's "Browse old repositories" feature.
 
-_During the testing of the dashboard and Jupyter notebooks, no other known bugs were identified._
+### Unfixed
+   - During the testing of the dashboard and Jupyter notebooks, no other known bugs were identified.
 
 ## 9. Deployment
 
